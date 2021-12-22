@@ -53,7 +53,9 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
       />
       <div className="flex flex-row justify-between items-center">
         <Rating value={4} />
-        <div className="text-accent-6 pr-1 font-medium text-sm">36 reviews</div>
+        <div className="text-accent-6 pr-1 font-medium text-sm">
+          1001 reviews
+        </div>
       </div>
       <div>
         {process.env.COMMERCE_CART_ENABLED && (
@@ -72,14 +74,8 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
         )}
       </div>
       <div className="mt-6">
-        <Collapse title="Care">
-          This is a limited edition production run. Printing starts when the
-          drop ends.
-        </Collapse>
         <Collapse title="Details">
-          This is a limited edition production run. Printing starts when the
-          drop ends. Reminder: Bad Boys For Life. Shipping may take 10+ days due
-          to COVID-19.
+          Made with love by 100% real grandmas and shipped fast to your door!
         </Collapse>
       </div>
     </div>

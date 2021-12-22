@@ -1,26 +1,26 @@
 {
-  "title": "ACME Storefront | Powered by Next.js Commerce",
-  "titleTemplate": "%s - ACME Storefront",
-  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+  "title": "Fakery Bakery - Made by real grandmas",
+  "titleTemplate": "%s - Fakery Bakery",
+  "description": "Fakery Bakery made by real grandmas.",
   "openGraph": {
-    "title": "ACME Storefront | Powered by Next.js Commerce",
-    "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+    "title": "Fakery Bakery - Made by real grandmas",
+    "description": "Fakery Bakery made by real grandmas.",
     "type": "website",
     "locale": "en_IE",
-    "url": "https://nextjs.org/commerce",
-    "site_name": "Next.js Commerce",
+    "url": "./",
+    "site_name": "Fakery Bakery",
     "images": [
       {
         "url": "/card.png",
         "width": 800,
         "height": 600,
-        "alt": "Next.js Commerce"
+        "alt": "Fakery Bakery"
       }
     ]
   },
   "twitter": {
-    "handle": "@nextjs",
-    "site": "@nextjs",
+    "handle": "@",
+    "site": "@",
     "cardType": "summary_large_image"
   }
 }
